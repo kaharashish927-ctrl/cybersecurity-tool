@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Message Scanner</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Message Safety Checker ✉️</h1>
+
+<div class="box">
+
+<p>Paste email, SMS or WhatsApp message</p>
+
+<textarea id="message"
+placeholder="Example:
+Your bank account is blocked click here to verify..."
+style="width:80%; height:120px;"></textarea>
+
+<br>
+
+<button onclick="checkMessage()">Check Message</button>
+
+<h3 id="msgResult"></h3>
+
+<div id="msgReasons"></div>
+
+</div>
+
+<br>
+
+<a href="index.html">⬅ Back</a>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>

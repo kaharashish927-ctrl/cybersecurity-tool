@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>File Lock</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Secure File Lock 🔐</h1>
+
+<div class="box">
+
+<h3>Lock File</h3>
+
+<input type="file" id="file">
+
+<br>
+
+<input type="password" id="lockPassword" placeholder="Enter password">
+
+<br>
+
+<button onclick="encryptFile()">Lock & Download</button>
+
+
+<hr>
+
+
+<h3>Unlock File</h3>
+
+<input type="file" id="encryptedFile">
+
+<br>
+
+<input type="password" id="unlockPassword" placeholder="Enter password">
+
+<br>
+
+<button onclick="decryptFile()">Unlock File</button>
+
+
+<h3 id="fileResult"></h3>
+
+</div>
+
+<br>
+
+<a href="index.html">⬅ Back</a>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
